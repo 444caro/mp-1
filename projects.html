@@ -1,0 +1,80 @@
+<!-- /mini-projects/mp-1/projects.html/ -->
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+       <meta charset = "UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <meta name="description" content="A website showcasing Caroline Muscara's Online Resume">
+       <link type="text/css" rel="stylesheet" href="resume-styles.css">
+       <title> Projects | Resume </title>
+   </head>
+   <body>
+        <div id = "page-wrapper">
+        <!-- HEADER STARTS HERE -->
+            <header>
+                <h1> Caroline Muscara </h1>
+                <p> My Online Resume </p>
+            </header>
+        <!-- HEADER ENDS HERE -->
+            <div id = "container-layout">
+            <!-- NAVIGATION STARTS HERE -->
+                <nav>
+                    <ul class = "nav-ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="experience.html">Work Experience </a></li>
+                        <li><a href="volunteer.html">Volunteer Experience </a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+
+            <!-- NAVIGATION ENDS HERE -->
+
+            <!-- MAIN CONTENT STARTS HERE -->
+                <main>
+                    <h2> Projects </h2>
+                    <div id = "main-text">
+                        <p> 
+                            Here are some of the projects I have worked on in the past with their 
+                            corresponding Github links. 
+                            Below that is my latest project, a calculator. 
+                        </p>
+                    </div>
+
+                    <div id = "projects">
+                        <ul>
+                            <li><p>A concert finder web application called <a href = "https://github.com/ivannadels/CS411-ConcertFinder"> Concert Compass</a>  that helps users locate concerts based on artist preferences and location using Java, Python, HTML/CSS, MongoDB, and APIs.</p></li>
+                            <li><p><a href = "https://github.com/rowanwhelan/Boston-Budget-Project">Boston Budgetary Analysis Project </a> where my group observed historical trends in Boston's budget data and created expectations for the upcoming fiscal year. We successfully uncovered patterns in Boston's budget allocation and spending strategies. </p></li>
+                            <li><p>A website called <a href = "">BloomBoard</a> where florists can share their arrangements and flower details with other florists. </p></li>
+                        </ul>
+                    </div>
+
+                    <div id = "calculator">
+                        <h2> Calculator </h2>
+                        <label for = "num1"> Give me a number: </label><input id = "num1"><br>
+                        <label for = "num2"> Give me another number: </label><input id = "num2"><br>
+                        <button id = "addition" onclick = "addition()"> + </button>
+                        <button id = "subtraction" onclick = "subtraction()"> - </button>
+                        <button id = "multiplication" onclick = "multiplication()"> * </button>
+                        <button id = "division" onclick = "division()"> / </button>
+                        <button id = "power" onclick = "power()"> ** </button>
+                        <button id = "clearBoxes" onclick = "clearBoxes()"> Clear </button>
+                        <h3 id = "output"> </h3>
+                        <script src = "calculator.js"></script>
+                    </div>
+                </main>
+            <!-- MAIN CONTENT ENDS HERE -->
+            </div>
+
+
+        <!-- FOOTER STARTS HERE -->
+            <footer>
+                <p> All Rights Reserved by Caroline Muscara <a href = "credits.html"> Credits</a> &copy;</p>
+            </footer>
+        <!-- FOOTER ENDS HERE -->
+         </div>
+
+    </body>
+</html>
